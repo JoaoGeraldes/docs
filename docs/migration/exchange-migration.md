@@ -1,6 +1,6 @@
 # Exchange migration guide
 
-Use this guide to rebrand the original Terra chain as Terra Classic and integrate the new Terra chain. Please read this page entirely, as it contains important information. Check out the [Exchange FAQ](./exchange-faq.md) for answers to your frequently asked questions. 
+Use this guide to rebrand the original Terra chain as Terra Classic and integrate the new Terra chain. Please read this page entirely, as it contains important information. Check out the [Exchange FAQ](./exchange-faq.md) for answers to your frequently asked questions.
 
 ## General info
 
@@ -11,7 +11,7 @@ Per [governance proposal 1623](https://station.terra.money/proposal/1623), a new
 - The original Cosmos chain will still run, with market swaps (mint/burn function) disabled.
 - All balances will remain as they are.
 - Luna will become Luna Classic (LUNC).
-- Terra stablecoins (UST, KRT, EUT, etc.) will be renamed Terra Classic stablecoins (USTC, KRTC, EUTC, etc.). 
+- Terra stablecoins (UST, KRT, EUT, etc.) will be renamed Terra Classic stablecoins (USTC, KRTC, EUTC, etc.).
 
 2\. The new chain will be called **Terra**, and will assume all Terra branding assets.
 
@@ -31,7 +31,7 @@ The original Terra chain will be rebranded as Terra Classic.
 
 - Official chain name: Terra Classic
 - All Luna currently on exchanges needs to be renamed Luna Classic (LUNC).
-- All Terra stablecoins will be rebranded as Terra Classic stablecoins. For example, TerraUSD(UST) will be renamed TerraClassicUSD(USTC) and TerraKRW(KRT) will become TerraClassicKRW(KRTC), etc. 
+- All Terra stablecoins will be rebranded as Terra Classic stablecoins. For example, TerraUSD(UST) will be renamed TerraClassicUSD(USTC) and TerraKRW(KRT) will become TerraClassicKRW(KRTC), etc.
 
 **Terra**:
 
@@ -52,12 +52,11 @@ For the new Terra chain, list as **Luna (LUNA)**
 
 :::
 
-
 ### Logos and assets
 
 Please update all logos and branding according to the following conventions:
 
-[Adobe Illustrator Terra Classic and new Terra chain files](../../_static/brand-assets/TerraLogos%20(2).ai). 
+[Adobe Illustrator Terra Classic and new Terra chain files](<../../_static/brand-assets/TerraLogos%20(2).ai>).
 
 **Terra Classic**:
 
@@ -72,7 +71,6 @@ You can download these assets using the links below:
 **Terra**:
 
 The new chain will be branded with the following assets:
-
 
 - [Terra logos](../../_static/brand-assets/01_Terra-20220522T084318Z-001.zip)
 - [Luna logos](../../_static/brand-assets/02_Luna-20220523T184554Z-001.zip)
@@ -90,7 +88,7 @@ The new chain will be branded with the following assets:
 
 **_Post-attack_** snapshot to be taken at Terra Classic block [7790000](https://finder.terra.money/classic/blocks/7790000). 
 
-**Note:** The post-attack block is estimated to occur on May 27th (2022.05.27 ~03:59:51 UTC+08:00). This block time is an estimate and may be subject to change. Please use the block height rather than the estimated time. Calculations described below should be carried out and resulting values should be utilized to properly calculate airdrop quantities. 
+**Note:** The post-attack block is estimated to occur on May 27th (2022.05.27 ~03:59:51 UTC+08:00). This block time is an estimate and may be subject to change. Please use the block height rather than the estimated time. Calculations described below should be carried out and resulting values should be utilized to properly calculate airdrop quantities.
 
 ### Airdrop allocations
 
@@ -107,7 +105,7 @@ The following is an example token allocation using made-up numbers. **None of th
 
 :::{dropdown} Click here to see an airdrop allocation example.
 
-**None of the following balances are real.** 
+**None of the following balances are real.**
 
 The following is an example token allocation using made-up numbers. This example considers both pre- and post-attack snapshots and excludes wallets owned by TFL and the community pool.
 
@@ -250,10 +248,9 @@ _Exchange User Assets_
 
 :::
 
-
 ## Use different seeds
 
-To avoid user confusion and prevent the sending of funds to the wrong accounts, ensure that the Terra Classic and new Terra chain addresses have different seeds on your exchange. You may want to include a warning to users to make sure they are transacting on the correct chain to the correct address. 
+To avoid user confusion and prevent the sending of funds to the wrong accounts, ensure that the Terra Classic and new Terra chain addresses have different seeds on your exchange. You may want to include a warning to users to make sure they are transacting on the correct chain to the correct address.
 
 ## Multisig guide
 
@@ -273,25 +270,28 @@ Dexes:
 
 ## Initial supply and inflation
 
-- The initial supply of Luna at the genesis of the new Terra chain will be 1 billion coins. 
+- The initial supply of Luna at the genesis of the new Terra chain will be 1 billion coins.
 - The mint module will release new coins every block as staking rewards at a default rate of around 7% p.a.
 
 ## Terra 2.0 Code and audit
 
 **Code**
+
 - https://github.com/terra-money/core
 
 **Audit**
-- https://github.com/SCV-Security/PublicReports/blob/main/Others/TerraMoney/TerraMoney%20-%20Core%20v2%20-%20Audit%20Test%20Report%20v1.0.pdf
 
+- https://github.com/SCV-Security/PublicReports/blob/main/Others/TerraMoney/TerraMoney%20-%20Core%20v2%20-%20Audit%20Test%20Report%20v1.0.pdf
 
 ## Networks
 
 **Terra Classic**
+
 - Mainnet: `columbus-5`
 - Testnet: `bombay-12`
 
 **Terra**
+
 - Mainnet: `phoenix-1`
 - Testnet: `pisco-1`
 
